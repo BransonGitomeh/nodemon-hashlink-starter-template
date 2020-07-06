@@ -1,0 +1,6 @@
+-lib heaps
+-lib hlsdl
+-lib easylog
+-hl build/Linux/build.hl
+-main Main
+-D windowSize=1366x768
