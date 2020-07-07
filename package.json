@@ -3,10 +3,11 @@
     "nodemon": "^2.0.4"
   },
   "scripts": {
-    "start":"hl build/Linux/build.hl",
-    "build":"haxe build.hl.hxml --debug",
-    "debug":"haxe --connect 6000 build.hxml",
+    "start": "hl build/Linux/build.hl",
+    "build": "haxe build.hl.hxml --debug",
+    "debug": "haxe --connect 6000 build.hxml",
     "dev": "nodemon -e hx --exec \"yarn build && yarn start\"",
     "myapp": "tsc -p . && node server.js"
-  }
+  },
+  "version": "0.0.0"
 }
